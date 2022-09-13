@@ -1,3 +1,5 @@
+/*Login / Register page(s)*/
+
 .formContainer{
     background-color: #a7bcff;
     height: 100vh;
@@ -47,6 +49,20 @@
                 padding: 10px;
                 font-weight: bold;
                 cursor: pointer;
+            }
+
+            //for Register page only (label, img)
+            label{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #a7bcff;
+                font-size: 12px;
+                cursor: pointer;
+            }
+
+            img{
+                width: 32px;
             }
         }
 
